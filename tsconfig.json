@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "sourceMap": true,
+    "target": "ES2015",
+    "module": "commonjs"                     
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "./build/**/*"
+  ]
+}
